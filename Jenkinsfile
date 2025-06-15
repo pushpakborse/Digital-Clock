@@ -2,8 +2,9 @@ pipeline {
     agent any
     
     tools {
-        nodejs 'Node16' // Use the NodeJS installation configured in Jenkins
+        nodejs 'Node16'
     }
+
     
     stages {
         stage('Checkout') {
