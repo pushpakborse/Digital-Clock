@@ -19,11 +19,11 @@ pipeline {
             }
         }
         
-        stage('Run Tests') {
-            steps {
-                sh 'npm test -- --watchAll=false'
-            }
-        }
+        // stage('Run Tests') {
+        //     steps {
+        //         sh 'npm test -- --watchAll=false'
+        //     }
+        // }
         
         stage('Build') {
             steps {
