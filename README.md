@@ -20,7 +20,7 @@ This project includes a Jenkins pipeline for automated deployment. The pipeline:
 5. Creates a Docker image
 6. Deploys the application using Docker
 
-### Prerequisites.
+### Prerequisites
 
 - Jenkins server with:
   - NodeJS Plugin (configured with Node 16)
