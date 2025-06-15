@@ -54,7 +54,7 @@ Once deployed, the application will be available at:
 - http://localhost (if deployed locally)
 - http://your-server-ip (if deployed to a server)
 
-## Development
+## Development.
 
 To run the application in development mode:
 
