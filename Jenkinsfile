@@ -4,6 +4,9 @@ pipeline {
     tools {
         nodejs 'Node22'
     }
+    triggers {
+        githubPush()
+    }
 
     
     stages {
