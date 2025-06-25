@@ -11,6 +11,7 @@ function DigitalClock() {
     
     return () => clearInterval(intervalId);
   }, []);
+  //
   
   const hours = time.getHours().toString().padStart(2, '0');
   const minutes = time.getMinutes().toString().padStart(2, '0');
